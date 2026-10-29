@@ -6,10 +6,11 @@ import PackageDescription
 let package = Package(
   name: "GRDB",
   platforms: [
-    .iOS(.v13),
-    .macOS(.v10_15),
-    .tvOS(.v13),
-    .watchOS(.v7),
+    .iOS(.v15),
+    .macOS(.v12),
+    .tvOS(.v15),
+    .watchOS(.v9),
+    .visionOS(.v1),
   ],
   products: [
     .library(
@@ -28,8 +29,8 @@ let package = Package(
     ),
     .binaryTarget(
       name: "GRDB",
-      url: "https://github.com/brunogama/GRDB.swift-Compiled-XCFramework-/releases/download/7.10.0/GRDB.xcframework.zip",
-      checksum: "5a86851b6415d6ad6db5a64d5ac8cd903f0c7bd41ea01d4337cc113bbfa2e2b2"
+      url: "https://github.com/brunogama/GRDB.swift-Compiled-XCFramework-/releases/download/7.11.0/GRDB.xcframework.zip",
+      checksum: "f7f31ad19d5989366cb38e15092a7d10e248b50a0a08f6fac8c8a2057eeb2d1e"
     ),
   ]
 )
