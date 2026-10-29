@@ -29,8 +29,8 @@ let package = Package(
     ),
     .binaryTarget(
       name: "GRDB",
-      url: "https://github.com/brunogama/GRDB.swift-Compiled-XCFramework-/releases/download/7.11.0/GRDB.xcframework.zip",
-      checksum: "f7f31ad19d5989366cb38e15092a7d10e248b50a0a08f6fac8c8a2057eeb2d1e"
+      url: "https://github.com/brunogama/GRDB.swift-Compiled-XCFramework/releases/download/7.12.0/GRDB.xcframework.zip",
+      checksum: "8cbbbee6f0f26edbfb99e8dcc1483ff5d14ddc55f986ff64f7d685b52fead2dd"
     ),
   ]
 )
